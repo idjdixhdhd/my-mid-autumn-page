@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中秋节祝福</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            /* 使用视频作为背景 */
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* 确保视频在最底层 */
+        }
+
+        .content-container {
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            z-index: 1; /* 确保内容在视频之上 */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        #longImage {
+最大宽度:100%
+高度:自动；
+边距底部：20像素；
+框影：0，0，0，0.2，0，0，0，0，0，2，0，0，0，2，2，2，2，2，3，3，3，3，3，5，5，5，5，5，6，5，5，6，5，6，5，5，5，5，8
+边框半径：10像素；
+转换:转换0.3秒轻松；
+        }
+
+#longImage:hover {
+变换：比例尺（1.05）；
+        }
+
+按钮 {
+padding:10px 20px；
+边距顶部：20像素；
+font-size:16px；
+背景颜色：rgba（255，165，0，0.5）；/*半透明橙色*/
+颜色:白色；
+边框:无；
+光标:指针；
+过渡：背景颜色0.3 s轻松；
+        }
+
+按钮：悬停
+背景颜色：rgba（255，165，0，0.7）；/*鼠标悬停时加深橙色*/
+        }
+
+@media（最大宽度:768px） {
+h1 {
+字体大小:2英寸；
+            }
+
+按钮 {
+padding:8px 16px；
+font-size:14px；
+            }
+        }
+</style>
+</头部>
+<body>
+<div class="背景视频">
+        <!-- 确保视频可以播放 -->
+<video id="backgroundVideo" 自动播放循环 静音>
+<source src="中秋视频.mp4" type="video/mp4"
+            您的浏览器不支持视频标签。
+</视频>
+</div>
+
+<div class="content-container">
+        <h1>中秋快乐</h1>
+        <img id="longImage" src="moon01.jpg" alt="中秋节长图“>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width，initial-scale=1.0">
+    <title>中秋节祝福</title>
+<style>
+身体 {
+font-family:Arial，无衬线；
+边距:0；
+
+            /* 使用视频作为背景 */
+职位:相对；
+显示屏:柔性；
+
+对齐项目:中心；
+高度:100伏特；
+颜色:白色；
+        }
+
+.背景视频 {
+地位:绝对；
+顶部:0；
+左: 0；
+宽度:100%；
+高度:100%
+物料适宜性:覆盖物；
